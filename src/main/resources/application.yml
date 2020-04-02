@@ -1,0 +1,21 @@
+spring:
+  security:
+    user:
+      name: foo
+      password: foo
+  datasource:
+    driver:
+      class:
+        name: com.mysql.cj.jdbc.Driver
+  profile:
+    active: dev
+
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017/niyo
+      url:  mongodb://localhost:27017/niyo
+      host: localhost
+      port: 27018
+      database: niyo
+      hidden_node_uri: mongodb://localhost:27017/niyo
+      authEnabled: false

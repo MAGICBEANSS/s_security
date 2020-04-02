@@ -1,0 +1,14 @@
+spring:
+  profile: prod
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017/niyo
+      host: localhost
+      port: 27017
+      database: niyo
+      hidden_node_uri: mongodb://localhost:27017/niyo
+      authEnabled: false
+  security:
+    user:
+      name: foo
+      password: foo
